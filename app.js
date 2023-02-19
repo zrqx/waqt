@@ -6,12 +6,11 @@ const PORT = process.env.PORT || 3000
 let counterDB = {}
 
 const updateCount = (counterDB, counterId) => {
-    let value = counterDB[counterId]
-    if (value != null) {
-        return value++
+    if (counterDB[counterId] != null) {
+        return ++counterDB[counterId]
     } else {
-        value = 1
-        return value
+        counterDB[counterId] = 1
+        return 1
     }
 }
 
