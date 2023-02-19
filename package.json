@@ -1,0 +1,24 @@
+{
+  "name": "waqt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrqx/waqt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zrqx/waqt/issues"
+  },
+  "homepage": "https://github.com/zrqx/waqt#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "redis": "^4.6.4"
+  }
+}
