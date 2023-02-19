@@ -19,6 +19,11 @@
   "homepage": "https://github.com/zrqx/waqt#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "mocha": "^10.2.0",
     "redis": "^4.6.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0"
   }
 }
